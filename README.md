@@ -1,4 +1,4 @@
-# Single AEM project
+# Singtel AEM project
 
 This is a project for Singtel Mega Menu
 
