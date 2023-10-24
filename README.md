@@ -2,7 +2,7 @@
 
 This is a project for Singtel Mega Menu
 
-AEM 6.5 & Service pack 6.5.17 used for both author and dispatcher 
+AEM 6.5 & Service pack 6.5.17 used for both author and publish 
 
 ## Modules
 
