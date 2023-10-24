@@ -25,9 +25,6 @@ Or to deploy it to a publish instance, run
 
     mvn clean install -PautoInstallSinglePackagePublish
 
-## Testing
-
-There are three levels of testing contained in the project:
 
 ### Unit tests
 
@@ -41,13 +38,13 @@ There are three levels of testing contained in the project:
 
 ### Caching Strategy ####
 
-We have used SDI with SSI. It will include Mega Menu with SSI directive on dispatcher with "nocache.html". Please see Dispatcher project for caching rules.
+Current Strategy - We have used SDI with SSI. It will include Mega Menu with SSI directive on dispatcher with "nocache.html". Please see Dispatcher project for caching rules.
 
-Alternatively we might have right a listener on publish that we clean parent and parent of cache if we need to cache mega menu section also
+Alternative Strategy - we can add a reosuece change listener on publish that we clean parent age and parent of paraent page cache if we need to cache mega menu section also
 
 ### Testing ###
 
-Open Page /content/singtel/us/en/home
+Open Page www-testing.org/content/singtel/us/en/home.html (See Dispatcher project for this)
 
 It will show
 
