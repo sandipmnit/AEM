@@ -1,0 +1,29 @@
+<div data-sly-use.model="com.singtel.core.models.MegaMenuModel">
+
+<sly data-sly-test.megaMenuList="${model.megaMenu}">
+
+   <sly data-sly-list.menuList="${megaMenuList}">
+
+     Menu Title : ${menuList.title}
+
+     Menu Link : ${menuList.link}
+
+     </br>
+
+     <sly data-sly-list.subMenuList="${menuList.subMenuList}">
+
+       Sub Menu Title : ${subMenuList.title}
+
+       Sub Menu Link : ${subMenuList.link}
+
+      </br>
+
+     </sly>
+
+     </br></br>
+
+   </sly>
+
+</sly>
+
+</div>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/singtel" mode="merge"/>
+    <filter root="/content/singtel" mode="merge"/>
+    <filter root="/content/dam/singtel" mode="merge">
+        <exclude pattern="/content/dam/singtel(/.*)?"/>
+        <include pattern="/content/dam/singtel/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/singtel/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/singtel" mode="merge"/>
+</workspaceFilter>
